@@ -1,3 +1,5 @@
+import 'package:edugizikids/edukasi_page.dart';
+import 'package:edugizikids/quiz_page.dart';
 import 'package:flutter/material.dart';
 
 
@@ -11,9 +13,10 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
-  final List<Widget> _pages = [
-    const HomeContent(),
-    
+  final List<Widget> _pages = const [ 
+    HomeContent(), 
+    EdukasiPage(), 
+    QuizPage(), 
   ];
 
   void _onItemTapped(int index) {

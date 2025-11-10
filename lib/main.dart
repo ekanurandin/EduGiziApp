@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'home_page.dart';
-import 'edukasi_page.dart';
-import 'quiz_page.dart';
 
 void main() {
   runApp(const EduGiziApp());
@@ -21,10 +19,6 @@ class EduGiziApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.orange.shade50,
       ),
       home: const HomePage(),
-      routes: {
-        '/edukasi': (context) => const EdukasiPage(),
-        '/quiz': (context) => const QuizPage(),
-      },
     );
   }
 }
