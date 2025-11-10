@@ -88,7 +88,7 @@ class HomeContent extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      'Aplikasi edukatif untuk belajar gizi seimbang secara menyenangkan. Yuk, mulai petualangan sehatmu!',
+                      'Aplikasi edukatif untuk belajar gizi seimbang secara menyenangkan dan bermanfaat. Yuk, mulai petualangan sehatmu!',
                       textAlign: TextAlign.center,
                       style: TextStyle(fontSize: 16, color: Colors.black87),
                     ),
